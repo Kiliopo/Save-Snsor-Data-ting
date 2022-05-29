@@ -1,0 +1,46 @@
+{
+    "name": "SensorControlls",
+    "maps": [
+        {
+            "name": "Default",
+            "id": "f8ead9df-d3af-429a-8413-c91b7d41a743",
+            "actions": [
+                {
+                    "name": "Gyro",
+                    "type": "Value",
+                    "id": "615bc6e7-b8a0-4683-8448-dbcb8d2330e6",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f31f1c95-bccb-4b3e-a83a-88d08c68aef8",
+                    "path": "<Gyroscope>/angularVelocity",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Gyro",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Mobil",
+            "bindingGroup": "Mobil",
+            "devices": [
+                {
+                    "devicePath": "<Gyroscope>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
